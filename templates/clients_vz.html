@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static './clients_vz.css' %}">
+</head>
+<body>
+        <!-- Clients_vz Form -->
+        <div class="clients_form_vz">
+            <div class="clients_form_main_vz">
+                <div class="clients_form_container_vz">
+                    <h3 class="text-center_clients_vz_1">Взаимодействие</h3>
+                    {% block content %}
+                    <form action="select1" method="post">
+                        {% csrf_token %}
+                        <div class="clients_form_vz_form clients_form_vz_form_1">
+                            <label>Вид услуги:</label>
+                            <p><select size="1">
+                                <option value="1">День рождения компании</option>
+                                <option value="2">Юбилей</option>
+                                <option value="3">Мероприятие</option>
+                                <option value="4">Собрание</option>
+                                </select>
+                            </p>
+                        </div>
+
+                        <h4 class="text-center_clients_vz_2">Дата</h4>
+                    
+                        <div class="clients_form_vz_form">
+                            <label for="start">Начало:</label>
+                            <input type="date" id="start" name="start" value="2021-02-22" min="2010-01-01" max="2021-02-22">
+                        </div>
+                        
+                        <div class="clients_form_vz_form clients_form_vz_form_4">
+                            <label for="appt">Время:</label>
+                            <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+                            <small>Office hours are 9am to 6pm</small>
+                        </div>
+
+                        <div class="clients_form_vz_form">
+                            <label>Примечание:</label>
+                            <input type="text" name='text'>
+                        </div>
+
+                        <div class="clients_form_vz_form clients_form_vz_form_5">
+                            <p><button onclick="window.location.href='clients_main'">Назад</button></p>
+                            <p><button onclick="window.location.href='clients_main'">Отправить</button></p>
+                        </div>
+
+                       </form>
+                       {% endblock %}
+                
+                    </div>
+            </div>
+        </div>
+        <!-- Clients_vz Form -->
+</body>
+</html>

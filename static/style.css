@@ -1,0 +1,331 @@
+*{
+  margin: 0;
+}
+html {
+    background-color:rgba(var(--b3f,250,250,250),1);
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background-blend-mode:overlay;
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+    background-image:url(../../assets/img/image4.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+
+  }
+  
+  body {
+    background-color:transparent;
+  }
+  
+    /* Log-In form*/
+  /* .registration-cssave{
+    padding:200px 0;
+    padding-bottom: 200px;
+    width: 400px;
+    margin: 0 auto;
+  
+  }
+   */
+  .registration-cssave form {
+    max-width:800px;
+    padding:50px 70px;
+    border-radius:2px;
+    box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+    background-color:#fff;
+  }
+  
+  .registration-cssave form h3 {
+    font-weight:bold;
+    margin-bottom:30px;
+  }
+  .form-group-placeholder{
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+
+  .registration-cssave .item {
+    border-radius:5px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    margin-bottom:25px;
+    padding:10px 20px;
+    background-color:rgba(var(--b3f,250,250,250),1);
+  }
+  
+  .registration-cssave .create-account {
+    border-radius:5px;
+    padding:10px 20px;
+    font-size:13px;
+    font-weight:bold;
+    background-color:#3f93ff;
+    border:none;
+    color:white;
+    margin-top:20px;
+    width: 205px;
+  }
+    /* Log-In form*/
+  
+    /*  Main Form*/
+.header{
+  height: 50px;
+  width: inherit;
+  background-color: #ffffff;
+  align-items:center;
+  border-radius:2px;
+  box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+.headerA{
+  margin: 0 25px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color:rgb(0, 0, 0);
+}
+#headerA-1{
+  width: 15px;
+  height: 15px;
+}
+#headerA-4{
+  margin-left: 800px;
+}
+
+    /*  Main Form*/
+
+.headerA-1{
+  width: 150px;
+  height: 150px;
+}
+.main{
+  height: 1000px;
+  display: flex;
+}
+.main-left{
+  width: 20%;
+  height: inherit;
+  background-color: #00B4CC;
+}
+.main-right{
+  width: 80%;
+  height: inherit;
+  display: flex;
+}
+.main-left-container{
+  width: 80%;
+  margin: 0 auto;
+  height: inherit;
+}
+.main-left-top{
+  height: 15%;
+  align-items: center;
+}
+.main-left-bottom{
+
+}
+.main-left-top-photo{
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.main-left-top-name{
+  margin-left: 55px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.main-left-bottom-item{
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  border: 1px solid #00B4CC;
+  border-radius: 4px;
+}
+.main-left-bottom-item:hover{
+  border: 1px solid rgba(var(--b6a,219,219,219),1);
+  transition: 0.8s;
+}
+.main-left-bottom-item-text{
+  margin-top: 4px;
+  margin-left: 2px;
+}
+
+.main-right-container{
+  width: 80%;
+  margin: 0 auto;
+  height: inherit;
+  display: flex;
+}
+
+.main-right-1-container{
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.main-right-2-container{
+  width: 80%;
+  margin: 0 auto;
+  height: inherit;
+}
+
+.main-right-1{
+  width: 30%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 0px;
+}
+.main-right-1-block{
+  width: 100%;
+  height: 60%;
+  margin-top: 50px;
+  border: 2px solid #00B4CC;
+  border-radius: 20px;
+}
+.main-right-1-item{
+  width: 25%;
+  height: 50px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.main-right-1-1{
+  display: flex;
+  margin-top: 50px;
+}
+.main-right-1-1-photo{
+  margin-left: 45px;
+}
+.main-right-1-1-text{
+  margin-top: 4px;
+  margin-left: 2px;
+}
+.main-right-1-2{
+  
+}
+.main-right-1-2-item{
+  border: 2px solid rgba(var(--b6a,219,219,219),1);
+  border-radius: 20px;
+  width: inherit;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #00B4CC;
+}
+.main-right-1-2-item-text{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.main-right-2{
+  width: 70%;
+  height: inherit;
+}
+.main-right-2-calendar-photo{
+  width:550px ;
+  height: 388px ;
+  border-radius: 20px;
+  border: 2px solid #00B4CC;
+  margin-top: 50px;
+}
+
+.main-right-2-news{
+  border: 2px solid #00B4CC;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.main-right-2-news-ul{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+
+.search {
+  width: 300px;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 340px;
+  margin-left: 550px;
+  margin-top: 5px;
+}
+
+
+
+    /*  Footer*/
+
+.footer-basic {
+  padding:20px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:48px;
+  height:48px;
+  line-height:48px;
+  display:inline-block;
+  text-align:center;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+    /*  Footer*/
+
+
+
+
+  @media (max-width: 576px) {
+    .registration-cssave form {
+      padding:50px 20px;
+    }
+  }

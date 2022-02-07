@@ -1,0 +1,165 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static './sotr.kompanii.css' %}">
+</head>
+<body>
+    <!-- Main Form -->
+    <div class="header">
+        <img class="headerA" id="headerA-1" src="{% static './img/IMG_4234.PNG' %}" onclick="window.location.href='index'">
+        <a class="headerA" id="headerA-2" onclick="window.location.href='sotr_uroven'">Уровень-взаимодействия</a>
+        <a class="headerA" id="headerA-3" href="#">Компании</a> 
+        <div class="wrap">
+            <div class="search">
+               <input type="text" class="searchTerm" placeholder="Поиск...">
+               <button type="submit" class="searchButton">
+                 <i class="fa fa-search"></i>
+              </button>
+            </div>
+        </div>
+        <a class="headerA" id="headerA-5" href="accounts/logout">Выход</a>
+    </div>
+
+    <div class="main">
+        <div class="main-left">
+            <div class="main-left-container">
+                <div class="main-left-top">
+                    <img class="main-left-top-photo" src="{% static './img/chile.png' %}" alt="">
+                    <p class="main-left-top-name">Abdikarimov Abai</p>
+                </div>
+                <div class="main-left-bottom">
+                    <div class="main-left-bottom-item">
+                        <img src="{% static './img/argentina.png' %}" alt="" class="main-left-bottom-item-photo">
+                        <p class="main-left-bottom-item-text">Orozbekov Zhayil</p>
+                    </div>
+                    <div class="main-left-bottom-item">
+                        <img src="{% static './img/argentina.png' %}" alt="" class="main-left-bottom-item-photo">
+                        <p class="main-left-bottom-item-text">Ibragimova Yasmin</p>
+                    </div>
+                    <div class="main-left-bottom-item">
+                        <img src="{% static './img/argentina.png' %}" alt="" class="main-left-bottom-item-photo">
+                        <p class="main-left-bottom-item-text">Soloshenko Teona</p>
+                    </div>
+                    <div class="main-left-bottom-item">
+                        <img src="{% static './img/argentina.png' %}" alt="" class="main-left-bottom-item-photo">
+                        <p class="main-left-bottom-item-text">Tokonoeva Aidai</p>
+                    </div>
+                    <div class="main-left-bottom-item">
+                        <img src="{% static './img/argentina.png' %}" alt="" class="main-left-bottom-item-photo">
+                        <p class="main-left-bottom-item-text">Murzakmatov Aidar</p>
+                    </div>
+                    <div class="main-left-bottom-item">
+                        <img src="{% static './img/argentina.png' %}" alt="" class="main-left-bottom-item-photo">
+                        <p class="main-left-bottom-item-text">Sabyrbekov Alisher</p>
+                    </div>
+                    <div class="main-left-bottom-item">
+                        <img src="{% static './img/argentina.png' %}" alt="" class="main-left-bottom-item-photo">
+                        <p class="main-left-bottom-item-text">Jenishbek Uulu Chyngiz</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="main-right-container">
+               <div class="table">
+                <table>
+                    <thead>
+                        <tr class="table100-head">
+                            <th class="column1">Name</th>
+                            <th class="column2">Order ID</th>
+                            <th class="column3">Category</th>
+                            <th class="column4">Payment Date</th>
+                            <th class="column5">Contact</th>
+                            <th class="column6">Number of interaction</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <td class="column1">Beeline</td>
+                                <td class="column2">1</td>
+                                <td class="column3">A</td>
+                                <td class="column4">21.05</td>
+                                <td class="column5">+996773300563</td>
+                                <td class="column6">3</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">Kumtor</td>
+                                <td class="column2">2</td>
+                                <td class="column3">B</td>
+                                <td class="column4">27.02</td>
+                                <td class="column5">+996773230563</td>
+                                <td class="column6">1</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">0!</td>
+                                <td class="column2">3</td>
+                                <td class="column3">A</td>
+                                <td class="column4">05.05</td>
+                                <td class="column5">+996553300563</td>
+                                <td class="column6">4</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">Globus</td>
+                                <td class="column2">4</td>
+                                <td class="column3">C</td>
+                                <td class="column4">06.11</td>
+                                <td class="column5">+996773230563</td>
+                                <td class="column6">0</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">Gazprom</td>
+                                <td class="column2">5</td>
+                                <td class="column3">A</td>
+                                <td class="column4">15.03</td>
+                                <td class="column5">+996552300563</td>
+                                <td class="column6">2</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">EcoMade</td>
+                                <td class="column2">6</td>
+                                <td class="column3">D</td>
+                                <td class="column4">27.12</td>
+                                <td class="column5">+996773301343</td>
+                                <td class="column6">6</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">Megacom</td>
+                                <td class="column2">7</td>
+                                <td class="column3">A</td>
+                                <td class="column4">13.07</td>
+                                <td class="column5">+996555300563</td>
+                                <td class="column6">3</td>
+                            </tr>
+                            <tr>
+                                <td class="column1">KFC</td>
+                                <td class="column2">8</td>
+                                <td class="column3">D</td>
+                                <td class="column4">11.04</td>
+                                <td class="column5">+996714300563</td>
+                                <td class="column6">2</td>
+                            </tr>
+                            
+                    </tbody>
+                </table>
+               </div> 
+            </div>
+        </div>
+    </div>
+    <!-- Main Form -->
+
+
+   <!-- Footer -->
+   <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/limbo_tsi/"><i class="icon ion-social-instagram"><img src="{% static './img/5296765_camera_instagram_instagram logo_icon.png' %}" alt=""></i></a><a href="#"><i class="icon ion-social-snapchat"><img src="{% static './img/5365678_fb_facebook_facebook logo_icon.png' %}" alt=""></i></a><a href="#"><i class="icon ion-social-twitter"><img src="{% static './img/5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png' %}" alt=""></i></a><a href="#"><i class="icon ion-social-facebook"><img src="{% static './img/5296511_network_social network_tumblr_tumblr logo_icon.png' %}" alt=""></i></a></div>
+            <p class="copyright">Limbo © 2021</p>
+        </footer>
+    </div>
+   <!-- Footer -->
+</body>
+</html>

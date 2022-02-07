@@ -1,0 +1,83 @@
+  /*  Clients form_vz*/
+  body{
+    margin-left: 150px;
+  }
+  .clients_form_vz{
+    width: inherit;
+    height: 600px;
+  
+  }
+  .clients_form_main_vz{
+    border-radius:2px;
+    box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+    background-color:#fff;
+    width: 400px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top:100px;
+  }
+  
+  .clients_form_container_vz{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: block;
+  }
+  .text-center_clients_vz_1{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .clients_form_vz_form_1 p{
+    margin: 0;
+    margin-left: 10px;
+  }
+  .clients_form_vz_form_1 label{
+    text-align: center;
+  }
+  .clients_form_vz_form_1 select{
+    background-color:#3f93ff;
+    border-radius:10px;
+    padding:5px 10px;
+    width: 220px;
+    box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+  }
+  .text-center_clients_vz_2{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+  .clients_form_vz_form{
+    display: flex;
+    margin-top:35px ;
+  }
+  .clients_form_vz_form_4 input{
+    width: 200px;
+    height: 20px;
+  }
+  .clients_form_vz_form_4 small{
+    margin-left: 5px;
+  }
+  .clients_form_vz_form_5{
+    margin-top: 70px;
+    justify-content: space-between;
+  }
+  .clients_form_vz_form_5 button{
+    width: 150px;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color:#3f93ff;
+    border-radius: 10px;
+    box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    padding:5px 10px;
+  }
+  .clients_form_vz_form input{
+    margin-left: 10px;
+    background-color:#3f93ff;
+    border-radius: 10px;
+    box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+    padding:5px 10px;
+  }
+      /*  Clients form_vz*/

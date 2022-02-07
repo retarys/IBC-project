@@ -1,0 +1,50 @@
+
+    /*  Clients form*/
+    .clients_form{
+        width: inherit;
+        height: 600px;
+      
+      }
+      .clients_form_main{
+        border-radius:2px;
+        box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+        background-color:#fff;
+        width: 400px;
+        height: 500px;
+        margin: 0 auto;
+        margin-top:100px;
+      }
+      
+      .clients_form_container{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        padding-top: 130px;
+      }
+      .text-center_clients_1{
+        text-align: center;
+      }
+      .clients_main_bt{
+        border-radius:5px;
+        border: 1px solid rgba(var(--b6a,219,219,219),1);
+        padding:10px 20px;
+        font-weight:bold;
+        background-color:#3f93ff;
+        width: 70%;
+        margin-left: 50px;
+        margin-top: 40px;
+        transition: 0.3s;
+        text-decoration: none;
+      }
+      .clients_main_bt a{
+        text-decoration: none;
+      }
+
+
+      .clients_main_bt:hover{
+        color: white;
+        font-size: 14px;
+      }
+      
+          /*  Clients form*/
+      
